@@ -18,7 +18,7 @@ En esta base de datos de recursos humanos,  su principal función es mostrar inf
 
 -Teléfono **(texto)**
 
---  vsvsfdv
+- PRUEBA
 
 -Correo Electrónico **(texto)**
 
