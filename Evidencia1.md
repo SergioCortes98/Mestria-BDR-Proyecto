@@ -1,45 +1,45 @@
-##TAREA 1
+## TAREA 1
 
 #Descripción de la base de datos y sus elementos
 
 En esta base de datos de recursos humanos,  su principal función es mostrar información detallada de los empleados, en cuanto a **salario, antigüedad y rendimientos**, entre otras cosas.
 
-#**Datos y atributos de nuestra base.**
+# **Datos y atributos de nuestra base.**
 
--ID Empleado **(numérico único)**
+- ID Empleado **(numérico único)**
 
--Nombre **(texto)**
+- Nombre **(texto)**
 
--Apellido **(texto)**
+- Apellido **(texto)**
 
--Fecha de nacimiento **(fecha)**
+- Fecha de nacimiento **(fecha)**
 
--Dirección **(texto)**
+- Dirección **(texto)**
 
--Teléfono **(texto)**
+- Teléfono **(texto)**
 
 - PRUEBA
 
--Correo Electrónico **(texto)**
+- Correo Electrónico **(texto)**
 
--Fecha de contratación **(fecha)**
+- Fecha de contratación **(fecha)**
 
--ID del departamento **(numérico único)**
+- ID del departamento **(numérico único)**
 
--ID del puesto **(numérico único)**
+- ID del puesto **(numérico único)**
 
--Nombre del departamento **(texto)**
+- Nombre del departamento **(texto)**
 
--Nombre del puesto **(texto)**
+- Nombre del puesto **(texto)**
+ 
+- Descripcion **(texto)**
 
--Descripcion **(texto)**
+- Nivel salarial minimo **(numérico)**
 
--Nivel salarial minimo **(numérico)**
+- Nivel salarial máximo **(numérico)**
 
--Nivel salarial máximo **(numérico)**
+- ID evaluación **(numérico único)**
 
--ID evaluación **(numérico único)**
+- Fecha de Evaluación  **(fecha)**
 
--Fecha de Evaluación  **(fecha)**
-
--Calificacion **(numérico)**
+- Calificacion **(numérico)**
