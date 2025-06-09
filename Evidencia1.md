@@ -36,7 +36,7 @@ En esta base de datos de recursos humanos,  su principal función es mostrar inf
 
 - Nivel salarial máximo **(numérico)**
 
-- ID evaluación **(numérico único)**
+- ID de evaluación **(numérico único)**
 
 - Fecha de Evaluación  **(fecha)**
 
