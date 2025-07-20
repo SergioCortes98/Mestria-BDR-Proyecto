@@ -44,7 +44,7 @@ GROUP BY Pais_Donde_Juegan
 ORDER BY frecuencia ASC;
 ```
 
-![alt text](Frecuencia_Pais.png)
+![alt text](image-4.png)
 
 Generamos una tabla de frecuencias de en qué país juegan los jugadores de la selección ordenados de forma ascendente
 
