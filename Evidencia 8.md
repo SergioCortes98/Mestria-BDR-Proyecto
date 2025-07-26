@@ -1,9 +1,9 @@
 
-### Evidencia_8
+# Evidencia_8
 
 ## Creación de view sobre consultas significativas.
 
-# 1-Join 
+### 1-Join 
 
 En esta utilizare una subconsulta generada en mi tarea anterior, debido a que ahí realice    un join, y le genero adicional una view, en el cual sirve para ver qué departamento tiene mejor desempeño entre sus empleados.
 
@@ -22,7 +22,7 @@ SELECT * FROM VistaPromedioDesempenoDepartamento
 ORDER BY promedio_departamento DESC;
 ```
 
-# 2- Left Join 
+### 2- Left Join 
 
 En esta es una consulta sencilla la cual realizo el join para saber a los empleados y su evaluación.
 
@@ -40,7 +40,7 @@ LEFT JOIN Evaluacion ev ON e.id_empleado = ev.id_empleado;
 SELECT * FROM VistaEmpleadosConEvaluacion;
 ```
 
-# 3-Right Join 
+### 3-Right Join 
 
 Esta vista es útil si por alguna razón tengo  evaluaciones de empleados que ya no están en la tabla Empleado.
 
@@ -57,7 +57,7 @@ RIGHT JOIN Evaluacion ev ON e.id_empleado = ev.id_empleado;
 SELECT * FROM VistaRJEvaluaciones;
 ```
 
-# 4-Subconsulta 
+### 4-Subconsulta 
 
 En esta de la tabla Evaluación y Empleado, la vista me muestra el id, nombre, id_departamento y su promedio de desempeño sin embargo se realiza la subconsulta para ver el promedio del departamento.
 
@@ -81,7 +81,7 @@ SELECT * FROM VistaComparacionDesempeno
 ORDER BY promedio_desempeno DESC;
 ```
 
-# Creación de Disparador (trigger) Insert
+### Creación de Disparador (trigger) Insert
 
 En esta primero cree una tabla de bitácora donde me registrara con id_bitacora, id_empleado, acción y fecha de registro.
 
